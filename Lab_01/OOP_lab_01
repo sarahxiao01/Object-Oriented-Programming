@@ -1,0 +1,88 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    std::cout << "Hello world!\n";
+    cout << "Hello world!\n";
+    int x;
+    int y  =17;
+    int z = 2000000017;
+    int pie = 3.14159;
+    x = "felix";
+
+    cout << sizeof(x);
+    cout << sizeof(y);
+    cout << sizeof(z);
+    cout << sizeof(pie);
+
+   
+if (y <= 20) && (y >= 10){
+    cout << "yes, x is between 10 and 20";
+    }
+for (int i = 10; i <= 20; ++i) {
+      cout << i;
+   }
+}
+
+   int i = 10;
+   while (i <= 20) {
+      cout << i;
+      ++i;
+   }
+}
+int i = 10;
+do {
+   cout << i;
+} while (i <= 20);
+
+string str;
+ifstream ifs(str);
+do {
+    cin >> str;
+    cout << "Please enter file name:";
+}
+ while (!ifs);
+   ifs.open(Str):
+ 
+ string anStr;
+while (ifs >> anStr) {
+   cout << anStr << endl;
+}
+ifs.close();
+}
+
+vector<int> vectorOfInts;
+for (int i = 10; i <= 100; i+=2) {
+    vectorOfInts.push_back(i);
+}
+
+for (size_t i = 0; i < vectorOfInts.size(); ++i) {
+    cout << vectorOfInts[i] << endl;
+}
+
+for (int x : vectorOfInts) {
+    cout << x << endl;
+}
+
+for (size_t i = vectorOfInts.size(); i > 0 ; --i) {
+    cout << vectorOfInts[i-1] << endl;
+}
+
+vector<int> v1{2, 3, 5, 7, 8, 11, 13, 17, 19};
+
+for (size_t i = 0; i < v1.size(); ++i) {
+    cout << vectorOfInts[i] << endl;
+}
+
+void displayVector(vetor<int> myvec) {
+    for (size_t i = 0; i < myvec.size(); ++i) {
+    cout << myvec[i] << endl;
+}
+
+
+   return;
+}
+
+
